@@ -1,0 +1,27 @@
+{
+  "name": "intelfill",
+  "version": "1.0.0",
+  "description": "This is the dashboard for IntelFill ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetan51423/IntelFill_Dashboard.git"
+  },
+  "author": "Chetan shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chetan51423/IntelFill_Dashboard/issues"
+  },
+  "homepage": "https://github.com/Chetan51423/IntelFill_Dashboard#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  }
+}

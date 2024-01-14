@@ -1,0 +1,8 @@
+.nav-bar
+{
+    display: flex;
+    /* width: 1280px; */
+    height: 100px;
+    color: white;
+    border: 5px solid lightcoral;
+}   
