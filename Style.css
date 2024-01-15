@@ -1,8 +1,69 @@
 .nav-bar
 {
     display: flex;
-    /* width: 1280px; */
+    width: 1280px;
     height: 100px;
     color: white;
-    border: 5px solid lightcoral;
+    /* border: 5px solid lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 13px 10px -15px #111;
+    
 }   
+.group-373
+{
+    width: 890px;
+    height: 50px;
+    /* border: 5px solid rgb(245, 53, 53); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.group-182
+{
+    width: 398px;
+    height: 19px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: black; */
+    
+}
+.nav-items
+{
+    margin-left: 15px;
+}
+.footer
+{
+    width: 1280px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+}
+.group-392
+{
+    width: 1280px;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+}
+.group-390
+{
+    width: 120px;
+    height: 79.5px;
+}
+.group390_icons
+{
+    width: 120px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group390_icons_img
+{
+    border: 2px solid red;
+}
