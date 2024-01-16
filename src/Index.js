@@ -2,12 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Nav_Bar from './Components/Nav_Bar'
 import Foooter from './Components/Footer/Foooter'
-
+import Add from './Components/Add/Add'
 const Homepage = ()=>
 {
     return (
-        <div>
+        <div className='page'>
             <Nav_Bar/>
+            <div className='page-body'>
+                <Add/>
+            </div>
             <Foooter/>
         </div>
     )
