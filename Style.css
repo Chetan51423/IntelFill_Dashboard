@@ -14,41 +14,61 @@
 }   
 .group-373
 {
-    width: 890px;
+    width: 980px;
     height: 50px;
     /* border: 5px solid rgb(245, 53, 53); */
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    
 }
 .group-182
 {
     width: 398px;
     height: 19px;
-    margin-left: 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+    
     /* color: black; */
     
 }
+.Userlogo
+{
+    margin-left: 20px;
+}
 .nav-items
 {
-    margin-left: 15px;
+    margin-left: 35px;
 }
 .footer
 {
     width: 1280px;
     height: 228px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    
+    position: absolute;
+    bottom: 0px;
 }
 .group-392
 {
     width: 1280px;
     height: 183px;
+    /* display: flex; */
+    /* flex-direction: column;/ */
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    /* justify-content: center; */
+}
+.group-391
+{
+    width: 980px;
+    height: 125px;
+    margin-top: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .group-390
 {
@@ -65,5 +85,87 @@
 
 .group390_icons_img
 {
-    border: 2px solid red;
+    
+    width: 18px;
+    height: 18px;
+}
+.formlogo
+{
+    width: 100px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.group-388
+{
+    width: 388px;
+    height: 116px;
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: stretch; */
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    
+}
+.group-388-list
+{
+    /* position: 'absolute';
+    top: 0px;
+    left: 0px; */
+}
+.group-388-list-items
+{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.urbanist-list-items {
+    font-family: "Urbanist";
+    font-size:small;
+    color: #7C7C7C;
+    font-weight: 690;
+    margin-bottom: 14px;
+    height: 12px;
+}
+.group-389{
+    height: 125px;
+    width: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.group-392
+{
+    height: 183px;
+    width: 1280px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.horizontal-line
+{
+    width: 1280px;
+    /* border: 1PX soild black; */
+    border-top: 1px solid #C5C5C5;
+
+}
+.copyright-div
+{
+    width: 905px;
+    
+}
+.copyright-parent-div
+{
+    width: 210px;
+    height: 20px;
+    color: #7C7C7C;
+    font-family: "Urbanist";
+    font-size:  8.2px;;
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+
 }
