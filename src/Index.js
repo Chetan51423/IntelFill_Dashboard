@@ -12,11 +12,11 @@ const Homepage = ()=>
         <>
         <div className="main">
             <Nav_Bar/>
-                {/* <div className='page-body'>
+                <div className='page-body'>
                     <Add/>
                     <Recommended_Exams/>
                     <Recent_Exams/>
-                </div> */}
+                </div>
                 <div className="Exam-detail_page">
                     <Exam_details_mainPage/>
                 </div>

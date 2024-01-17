@@ -8,10 +8,7 @@ body {
     justify-content: center;
   }
 
-/* body {
-display: flex;
-flex-direction: column;
-} */
+
 .main
 {
     flex: 1;
@@ -22,11 +19,11 @@ flex-direction: column;
     width: 1280px;
     height: 100px;
     color: white;
-    /* border: 5px solid lightcoral; */
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-bottom: 1px solid black; */
+   
     box-shadow: 0px 13px 10px -15px #111;
     
 }   
@@ -34,9 +31,9 @@ flex-direction: column;
 {
     width: 980px;
     height: 50px;
-    /* border: 5px solid rgb(245, 53, 53); */
+    
     display: flex;
-    /* justify-content: center; */
+   
     align-items: center;
     
 }
@@ -48,7 +45,7 @@ flex-direction: column;
     justify-content:space-between;
     align-items: center;
     
-    /* color: black; */
+    
     
 }
 .Userlogo
@@ -75,11 +72,7 @@ flex-direction: column;
 {
     width: 1280px;
     height: 183px;
-    /* display: flex; */
-    /* flex-direction: column;/ */
-    /* justify-content: space-between; */
-    /* align-items: end; */
-    /* justify-content: center; */
+    
 }
 .group-391
 {
@@ -120,10 +113,9 @@ flex-direction: column;
     width: 388px;
     height: 116px;
     display: flex;
-    /* flex-direction: row; */
-    /* align-items: stretch; */
+    
     justify-content: space-between;
-    /* border: 2px solid black; */
+    
     
 }
 .group-388-list
@@ -298,7 +290,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center;  */
+    
    
     margin-left: 75px;
     
@@ -342,8 +334,7 @@ flex-direction: column;
 }
 .bookmark
 {
-    /* text-align: right; */
-    /* margin-left: 42px; */
+    
     margin-bottom: 23px;;
 }
 .exam-logo
@@ -362,9 +353,9 @@ flex-direction: column;
     height: 36px;
     display: flex;
     flex-direction: column;
-    /* margin-left: -20px; */
+    
     white-space: nowrap;
-    margin-left: -250px;
+    /* margin-left: -250px; */
 
 }
 .exam-name-year
@@ -384,7 +375,7 @@ flex-direction: column;
 }
 .group-56
 {
-    /* border: 1px solid black; */
+   
     font-family: "Urbanist";
     height: 30px;
     width: 120px;
@@ -483,12 +474,18 @@ flex-direction: column;
 {
     height: 980px;
     width: 980;
-    border: 1px solid black;
+    
     display: flex;
-    flex-direction: column;
+    
     justify-content: space-between;
     
 
+}
+.exam-detail-mainpage-col1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .Exam-detail_page
 {
@@ -574,4 +571,121 @@ flex-direction: column;
 {
     font-family: "Urbanist";
     font-weight: bolder;
+}
+
+/* =============================================================================== */
+
+.details
+{
+    width: 520px;
+    height: 692px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.exam-description
+{
+    width: 480px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+}
+.exam-desc-text
+{
+    font-family: "Urbanist";
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.group-398
+{
+    width: 480px;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    
+
+}
+.social-media
+{
+    width: 114px;
+    height: 30px;
+}
+/* li {  
+    list-style-type: none;
+    font-size: small;
+  }
+  
+  li:before {
+    content: '\2022';
+    font-size: 40px;
+    margin-right: 10px;
+    
+  } */
+.exam-dec-ul 
+{
+    
+    font-size: 15.9px;
+    font-family: "Urbanist";
+    list-style-type: disc;
+
+    
+}
+/* =========================================================== */
+
+.Group-113
+{
+    width: 308px;
+    height: 108px;
+}
+.exam-sug
+{
+    width: 420px;
+    height: 603px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+/* .xx
+{
+    display: flex;
+} */
+.group-120
+{
+    width: 380px;
+    height: 563px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.intersted-exam-msg
+{
+    font-family: "Urbanist";
+    font-weight:900;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.intersted-exam-view-all
+{
+    margin: auto;
+    color: #246BFD;
+    font-family: "Urbanist";
+    font-weight: bolder;
+    font-size: smaller;
+    border: 1px solid #246BFD;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
 }
