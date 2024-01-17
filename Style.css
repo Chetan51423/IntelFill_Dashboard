@@ -358,12 +358,13 @@ flex-direction: column;
 }
 .exam-name
 {
-    /* width: 129px; */
+    width: 129px;
     height: 36px;
     display: flex;
     flex-direction: column;
     /* margin-left: -20px; */
     white-space: nowrap;
+    margin-left: -250px;
 
 }
 .exam-name-year
@@ -474,4 +475,103 @@ flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ======================================================================= */
+
+.exam-detail-mainpage
+{
+    height: 980px;
+    width: 980;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.Exam-detail_page
+{
+    display: flex;
+    justify-content: center;
+}
+.exam-details
+{
+    height: 196px;
+    width: 520;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.group-396
+{
+    height: 156px;
+    width: 480;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.group-73
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.posted-on
+{
+    color: #9F9F9F;
+    width: 187px;
+    height: 14px;
+    font-family: "Urbanist";
+    font-size: 12px;
+
+}
+.group-396-img
+{
+   
+    /* height: 20px; */
+    /* align-items: left; */
+    display: flex;
+
+}
+.group-395
+{
+    width: 480px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.group-394-exam-date
+{
+    margin-bottom: 10px;
+}
+.group-394-exam-date{
+
+}
+.group-394-exam-date-img
+{
+    margin-right: 10px;
+}
+.date
+{
+    font-family: "urbanist";
+    font-weight: bold;
+}
+.back
+{
+    width: 75px;
+    height: 24px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.back_text
+{
+    font-family: "Urbanist";
+    font-weight: bolder;
 }

@@ -5,6 +5,7 @@ import Foooter from './Components/Footer/Foooter'
 import Add from './Components/Adds/Add'
 import Recommended_Exams from './Components/Recommended_Exams/Recommended_Exams'
 import Recent_Exams from './Components/Recent_Exams/Recent_Exams'
+import Exam_details_mainPage from './Components/Exam_Details_page/Exam_details_mainPage'
 const Homepage = ()=>
 {
     return (
@@ -16,6 +17,9 @@ const Homepage = ()=>
                     <Recommended_Exams/>
                     <Recent_Exams/>
                 </div> */}
+                <div className="Exam-detail_page">
+                    <Exam_details_mainPage/>
+                </div>
             <Foooter/>
         </div>
             
