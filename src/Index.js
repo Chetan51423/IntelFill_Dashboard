@@ -19,6 +19,7 @@ const Homepage = ()=>
                 </div>
                 <div className="Exam-detail_page">
                     <Exam_details_mainPage/>
+                    
                 </div>
             <Foooter/>
         </div>
