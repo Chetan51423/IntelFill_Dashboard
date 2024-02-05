@@ -2,10 +2,10 @@
   "name": "intelfill",
   "version": "1.0.0",
   "description": "This is the dashboard for IntelFill ",
-  "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
+    "start": "parcel Index.html",
     "build": "parcel build Index.html"
   },
   "repository": {
