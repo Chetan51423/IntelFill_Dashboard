@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is the dashboard for IntelFill ",
   
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel Index.html",
