@@ -4,9 +4,7 @@
   "description": "This is the dashboard for IntelFill ",
   
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel Index.html",
-    "build": "parcel build Index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
